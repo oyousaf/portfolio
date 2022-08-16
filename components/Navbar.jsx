@@ -114,7 +114,7 @@ const Navbar = () => {
                 <Image
                   onClick={handleNav}
                   className="cursor-pointer"
-                  src="/../public/assets/navLogo.png"
+                  src="/assets/navLogo.png"
                   width={40}
                   height={40}
                   alt="logo"
