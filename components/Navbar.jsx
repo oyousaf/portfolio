@@ -129,7 +129,7 @@ const Navbar = () => {
             </div>
             <div className="border-b border-[#efcf98] my-4">
               <p className="w-[85%] md:w-[90%] py-4">
-                Enthusiastic Frontend Dev
+                Frontend Developer
               </p>
             </div>
           </div>
