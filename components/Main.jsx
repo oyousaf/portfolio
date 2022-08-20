@@ -62,11 +62,8 @@ const Main = () => {
 
           <div className="flex justify-center py-16">
             <Link href="/#about">
-              <div className="animate-bounce rounded-full bg-[#d4af37] shadow-lg shadow-[#efcf98] p-4 cursor-pointer">
-                <HiOutlineChevronDoubleDown
-                  className="text-[#546E74]"
-                  size={30}
-                />
+              <div className="animate-bounce rounded-full bg-[#efcf98] hover:bg-[#d4af37] shadow-lg shadow-[#efcf98] text-[#546E74] hover:text-white p-4 cursor-pointer hover:scale-110 ease-in duration-300e">
+                <HiOutlineChevronDoubleDown size={30} />
               </div>
             </Link>
           </div>
