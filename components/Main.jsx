@@ -2,6 +2,8 @@ import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { HiOutlineChevronDoubleDown } from "react-icons/hi";
+import Link from "next/link";
 
 const Main = () => {
   return (
@@ -56,6 +58,17 @@ const Main = () => {
                 <BsFillPersonLinesFill />
               </div>
             </a>
+          </div>
+
+          <div className="flex justify-center py-16">
+            <Link href="/#about">
+              <div className="animate-bounce rounded-full bg-[#d4af37] shadow-lg shadow-[#efcf98] p-4 cursor-pointer">
+                <HiOutlineChevronDoubleDown
+                  className="text-[#546E74]"
+                  size={30}
+                />
+              </div>
+            </Link>
           </div>
         </div>
       </div>

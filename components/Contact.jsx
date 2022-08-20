@@ -28,8 +28,10 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className="w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4 items-center justify-center text-center">
-            <p className="uppercase pt-8 text-[#d4af37]">Let&apos;s build something special together</p>
+          <div className="w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4 lg:p-[100px] items-center justify-center text-center">
+            <p className="uppercase pt-8 text-[#d4af37]">
+              Let&apos;s build something special together
+            </p>
             <div className="flex py-4 gap-4 items-center justify-center text-center">
               <div className="rounded-full shadow-lg shadow-gray-200 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaLinkedinIn />
@@ -43,14 +45,13 @@ const Contact = () => {
             </div>
           </div>
         </div>
-
-        <div className="flex justify-center py-12">
-          <Link href="/" alt="top">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#d4af37]">
-              <HiOutlineChevronDoubleUp className="text-[#546E74]" size={30} />
-            </div>
-          </Link>
-        </div>
+      </div>
+      <div className="flex justify-center p-4">
+        <Link href="/" alt="top">
+          <div className="animate-pulse rounded-full bg-[#d4af37] shadow-lg shadow-[#efcf98] p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+            <HiOutlineChevronDoubleUp className="text-[#546E74]" size={30} />
+          </div>
+        </Link>
       </div>
     </div>
   );
