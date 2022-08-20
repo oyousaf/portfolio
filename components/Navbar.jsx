@@ -124,7 +124,7 @@ const Navbar = () => {
               </Link>
               <div
                 onClick={handleNav}
-                className="rounded-full shadow-lg shadow-[#efcf98] p-3 cursor-pointer"
+                className="rounded-full shadow-lg bg-[#d4af37] shadow-[#d4af37] text-[#546E74] p-3 cursor-pointer"
               >
                 <AiOutlineClose />
               </div>
@@ -184,17 +184,17 @@ const Navbar = () => {
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <a href="https://www.linkedin.com/in/oyousaf/" target="_blank" rel="noreferrer">
-                  <div className="rounded-full shadow-lg shadow-gray-100 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow-lg bg-[#d4af37] shadow-[#d4af37] text-[#546E74] p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <FaLinkedinIn />
                   </div>
                 </a>
                 <a href="mailto:o_yousaf@live.co.uk" target="_blank" rel="noreferrer">
-                  <div className="rounded-full shadow-lg shadow-gray-100 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow-lg bg-[#d4af37] shadow-[#d4af37] text-[#546E74] p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <AiOutlineMail />
                   </div>
                 </a>
                 <a href="tel:07597866002" target="_blank" rel="noreferrer">
-                  <div className="rounded-full shadow-lg shadow-gray-100 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow-lg bg-[#d4af37] shadow-[#d4af37] text-[#546E74] p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <FaPhone />
                   </div>
                 </a>
