@@ -46,7 +46,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      
+
       <div className="flex justify-center p-4">
         <Link href="/" alt="top">
           <div className="animate-pulse rounded-full bg-[#efcf98] hover:bg-[#d4af37] shadow-lg shadow-[#efcf98] text-[#546E74] hover:text-white p-4 cursor-pointer hover:scale-110 ease-in duration-300">
@@ -54,7 +54,6 @@ const Contact = () => {
           </div>
         </Link>
       </div>
-
     </div>
   );
 };
