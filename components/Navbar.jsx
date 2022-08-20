@@ -91,11 +91,13 @@ const Navbar = () => {
               </li>
             </Link>
           </ul>
-          <div onClick={handleNav} className="md:hidden">
+          <div onClick={handleNav} className="md:hidden text-[#d4af37]">
             <AiOutlineMenu size={25} />
           </div>
         </div>
       </div>
+
+      {/* Mobile */}
       <div
         className={
           nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""
@@ -104,7 +106,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed right-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#80a7b0] p-10 ease-in duration-300"
+              ? "fixed right-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#466268] p-10 ease-in duration-300"
               : "fixed right-[-100%] top-0 p-10 ease-in duration-500"
           }
         >
@@ -128,7 +130,7 @@ const Navbar = () => {
               </div>
             </div>
             <div className="border-b border-[#efcf98] my-4">
-              <p className="w-[85%] md:w-[90%] py-4">
+              <p className="w-[85%] md:w-[90%] py-4 uppercase text-gray-400">
                 Frontend Developer
               </p>
             </div>
