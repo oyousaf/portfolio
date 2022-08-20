@@ -49,7 +49,7 @@ const Contact = () => {
 
       <div className="flex justify-center p-4">
         <Link href="/" alt="top">
-          <div className="animate-pulse rounded-full bg-[#efcf98] hover:bg-[#d4af37] shadow-lg shadow-[#efcf98] text-[#546E74] hover:text-white p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+          <div className="animate-pulse rounded-full bg-[#d4af37] hover:bg-[#efcf98] shadow-lg shadow-[#efcf98] text-[#546E74] hover:text-white p-4 cursor-pointer hover:scale-110 ease-in duration-300">
             <HiOutlineChevronDoubleUp size={30} />
           </div>
         </Link>
