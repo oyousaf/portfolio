@@ -66,27 +66,27 @@ const Navbar = () => {
         <div>
           <ul style={{ color: `${linkColour}`}} className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-sm uppercase text-gray-300 hover:text-gray-100">
+              <li className="ml-10 text-sm uppercase text-[#d4af37] hover:text-[#efcf98]">
                 Home
               </li>
             </Link>
             <Link href="/#about">
-              <li className="ml-10 text-sm uppercase text-gray-300 hover:text-gray-100">
+              <li className="ml-10 text-sm uppercase text-[#d4af37] hover:text-[#efcf98]">
                 About
               </li>
             </Link>
             <Link href="/#skills">
-              <li className="ml-10 text-sm uppercase text-gray-300 hover:text-gray-100">
+              <li className="ml-10 text-sm uppercase text-[#d4af37] hover:text-[#efcf98]">
                 Skills
               </li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-10 text-sm uppercase text-gray-300 hover:text-gray-100">
+              <li className="ml-10 text-sm uppercase text-[#d4af37] hover:text-[#efcf98]">
                 Projects
               </li>
             </Link>
             <Link href="/#contact">
-              <li className="ml-10 text-sm uppercase text-gray-300 hover:text-gray-100">
+              <li className="ml-10 text-sm uppercase text-[#d4af37] hover:text-[#efcf98]">
                 Contact
               </li>
             </Link>
@@ -138,7 +138,7 @@ const Navbar = () => {
               <Link href="/">
                 <li
                   onClick={() => setNav(false)}
-                  className="py-4 text-gray-300 hover:text-gray-100"
+                  className="py-4 text-[#d4af37] hover:text-[#efcf98]"
                 >
                   Home
                 </li>
@@ -146,7 +146,7 @@ const Navbar = () => {
               <Link href="/#about">
                 <li
                   onClick={() => setNav(false)}
-                  className="py-4 text-gray-300 hover:text-gray-100"
+                  className="py-4 text-[#d4af37] hover:text-[#efcf98]"
                 >
                   About
                 </li>
@@ -154,7 +154,7 @@ const Navbar = () => {
               <Link href="/#skills">
                 <li
                   onClick={() => setNav(false)}
-                  className="py-4 text-gray-300 hover:text-gray-100"
+                  className="py-4 text-[#d4af37] hover:text-[#efcf98]"
                 >
                   Skills
                 </li>
@@ -162,7 +162,7 @@ const Navbar = () => {
               <Link href="/#projects">
                 <li
                   onClick={() => setNav(false)}
-                  className="py-4 text-gray-300 hover:text-gray-100"
+                  className="py-4 text-[#d4af37] hover:text-[#efcf98]"
                 >
                   Projects
                 </li>
@@ -170,7 +170,7 @@ const Navbar = () => {
               <Link href="/#contact">
                 <li
                   onClick={() => setNav(false)}
-                  className="py-4 text-gray-300 hover:text-gray-100"
+                  className="py-4 text-[#d4af37] hover:text-[#efcf98]"
                 >
                   Contact
                 </li>

@@ -19,22 +19,39 @@ const Main = () => {
             I love creating maintainable, responsive and scalable apps
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <a href="https://www.linkedin.com/in/oyousaf/" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.linkedin.com/in/oyousaf/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className="rounded-full shadow-lg shadow-gray-200 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaLinkedinIn />
               </div>
             </a>
-            <a href="https://github.com/oyousaf" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/oyousaf"
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className="rounded-full shadow-lg shadow-gray-200 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaGithub />
               </div>
             </a>
-            <a href="mailto:o_yousaf@live.co.uk" target="_blank" rel="noreferrer">
+            <a
+              href="mailto:o_yousaf@live.co.uk"
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className="rounded-full shadow-lg shadow-gray-200 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <AiOutlineMail />
               </div>
             </a>
-            <a href="https://oyousaf.pro/OY new.pdf" target="_blank" rel="noreferrer">
+            <a
+              href="../assets/OY new.pdf"
+              target="_blank"
+              rel="noreferrer"
+              download
+            >
               <div className="rounded-full shadow-lg shadow-gray-200 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <BsFillPersonLinesFill />
               </div>
