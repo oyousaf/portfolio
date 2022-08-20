@@ -29,7 +29,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4 items-center justify-center text-center">
-            <p className="uppercase pt-8 text-[#d4af37]">Let's build something special together</p>
+            <p className="uppercase pt-8 text-[#d4af37]">Let&apos;s build something special together</p>
             <div className="flex py-4 gap-4 items-center justify-center text-center">
               <div className="rounded-full shadow-lg shadow-gray-200 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaLinkedinIn />
