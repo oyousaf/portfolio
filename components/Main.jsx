@@ -26,7 +26,7 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg bg-[#d4af37] shadow-[#d4af37] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div className="rounded-full shadow-lg bg-[#d4af37] hover:bg-[#efcf98] shadow-[#d4af37] hover:shadow-[#efcf98] hover:text-[#546E74] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaLinkedinIn />
               </div>
             </a>
@@ -35,7 +35,7 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg bg-[#d4af37] shadow-[#d4af37] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div className="rounded-full shadow-lg bg-[#d4af37] hover:bg-[#efcf98] shadow-[#d4af37] hover:shadow-[#efcf98] hover:text-[#546E74] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaGithub />
               </div>
             </a>
@@ -44,7 +44,7 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg bg-[#d4af37] shadow-[#d4af37] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div className="rounded-full shadow-lg bg-[#d4af37] hover:bg-[#efcf98] shadow-[#d4af37] hover:shadow-[#efcf98] hover:text-[#546E74] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <AiOutlineMail />
               </div>
             </a>
@@ -54,7 +54,7 @@ const Main = () => {
               rel="noreferrer"
               download
             >
-              <div className="rounded-full shadow-lg bg-[#d4af37] shadow-[#d4af37] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div className="rounded-full shadow-lg bg-[#d4af37] hover:bg-[#efcf98] shadow-[#d4af37] hover:shadow-[#efcf98] hover:text-[#546E74] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <BsFillPersonLinesFill />
               </div>
             </a>
