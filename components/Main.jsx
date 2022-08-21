@@ -26,7 +26,7 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg bg-[#d4af37] shadow-[#d4af37] text-[#546E74]0 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div className="rounded-full shadow-lg bg-[#d4af37] shadow-[#d4af37] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaLinkedinIn />
               </div>
             </a>
@@ -35,7 +35,7 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg bg-[#d4af37] shadow-[#d4af37] text-[#546E74] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div className="rounded-full shadow-lg bg-[#d4af37] shadow-[#d4af37] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaGithub />
               </div>
             </a>
@@ -44,7 +44,7 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg bg-[#d4af37] shadow-[#d4af37] text-[#546E74] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div className="rounded-full shadow-lg bg-[#d4af37] shadow-[#d4af37] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <AiOutlineMail />
               </div>
             </a>
@@ -54,7 +54,7 @@ const Main = () => {
               rel="noreferrer"
               download
             >
-              <div className="rounded-full shadow-lg bg-[#d4af37] shadow-[#d4af37] text-[#546E74] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div className="rounded-full shadow-lg bg-[#d4af37] shadow-[#d4af37] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <BsFillPersonLinesFill />
               </div>
             </a>
@@ -62,7 +62,7 @@ const Main = () => {
 
           <div className="flex justify-center py-16">
             <Link href="/#about">
-              <div className="animate-bounce rounded-full bg-[#d4af37] hover:bg-[#efcf98] shadow-lg shadow-[#d4af37] text-[#546E74] hover:text-white p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div className="animate-bounce rounded-full bg-[#d4af37] hover:bg-[#efcf98] shadow-lg shadow-[#d4af37] hover:shadow-[#efcf98] hover:text-[#546E74] p-4 cursor-pointer hover:scale-110 ease-in duration-300">
                 <HiOutlineChevronDoubleDown size={30} />
               </div>
             </Link>

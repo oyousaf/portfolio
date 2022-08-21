@@ -33,13 +33,13 @@ const Contact = () => {
               Let&apos;s build something special together
             </p>
             <div className="flex py-4 gap-4 items-center justify-center text-center">
-              <div className="rounded-full shadow-lg shadow-gray-200 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div className="rounded-full shadow-lg bg-[#d4af37] hover:bg-[#efcf98] shadow-[#d4af37] hover:shadow-[#efcf98] hover:text-[#546E74] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaLinkedinIn />
               </div>
-              <div className="rounded-full shadow-lg shadow-gray-200 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div className="rounded-full shadow-lg bg-[#d4af37] hover:bg-[#efcf98] shadow-[#d4af37] hover:shadow-[#efcf98] hover:text-[#546E74] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <AiOutlineMail />
               </div>
-              <div className="rounded-full shadow-lg shadow-gray-200 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div className="rounded-full shadow-lg bg-[#d4af37] hover:bg-[#efcf98] shadow-[#d4af37] hover:shadow-[#efcf98] hover:text-[#546E74] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaPhone />
               </div>
             </div>
@@ -49,7 +49,7 @@ const Contact = () => {
 
       <div className="flex justify-center p-4">
         <Link href="/" alt="top">
-          <div className="animate-pulse rounded-full bg-[#d4af37] hover:bg-[#efcf98] shadow-lg shadow-[#d4af37] text-[#546E74] hover:text-white p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+          <div className="animate-pulse rounded-full bg-[#d4af37] hover:bg-[#efcf98] shadow-[#d4af37] hover:shadow-[#efcf98] hover:text-[#546E74] p-4 cursor-pointer hover:scale-110 ease-in duration-300">
             <HiOutlineChevronDoubleUp size={30} />
           </div>
         </Link>
