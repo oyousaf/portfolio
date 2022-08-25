@@ -33,15 +33,21 @@ const Contact = () => {
               Let&apos;s build something special together
             </p>
             <div className="flex py-4 gap-4 items-center justify-center text-center">
+            <a href="https://www.linkedin.com/in/oyousaf/" target="_blank" rel="noreferrer">
               <div className="rounded-full shadow-lg bg-[#d4af37] hover:bg-[#efcf98] shadow-[#d4af37] hover:shadow-[#efcf98] hover:text-[#546E74] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaLinkedinIn />
               </div>
+            </a>
+            <a href="mailto:o_yousaf@live.co.uk" target="_blank" rel="noreferrer">
               <div className="rounded-full shadow-lg bg-[#d4af37] hover:bg-[#efcf98] shadow-[#d4af37] hover:shadow-[#efcf98] hover:text-[#546E74] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <AiOutlineMail />
               </div>
+            </a>
+            <a href="tel:07597866002" target="_blank" rel="noreferrer">
               <div className="rounded-full shadow-lg bg-[#d4af37] hover:bg-[#efcf98] shadow-[#d4af37] hover:shadow-[#efcf98] hover:text-[#546E74] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaPhone />
               </div>
+            </a>
             </div>
           </div>
         </div>

@@ -11,7 +11,7 @@ export default function Home() {
       <Head>
         <title>Omar Yousaf</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta name="description" content="Enthusiatic Frontend Developer" />
+        <meta name="description" content="Enthusiastic Frontend Developer" />
         <meta
           name="keywords"
           content="OMAR YOUSAF, OYOUSAF, CV, PORTFOLIO, RESUME, React, NextJS, Tailwind, MERN, Node, HTML, CSS, JavaScript, Frontend, Backend, oyousaf87, oyousaf_"
