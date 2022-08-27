@@ -15,7 +15,7 @@ const Contact = () => {
         <h2 className="py-4">Connect with Me</h2>
 
         <div className="grid md:grid-cols-2 gap-8">
-          <div className="w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
+          <div className="w-full h-full shadow-xl shadow-[#efcf98] rounded-xl p-4">
             <div className="lg:p-4 h-full">
               <div>
                 <Image
@@ -28,7 +28,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className="w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4 lg:p-[100px] items-center justify-center text-center">
+          <div className="w-full h-full shadow-xl shadow-[#efcf98] rounded-xl p-4 lg:p-[100px] items-center justify-center text-center">
             <p className="uppercase pt-8 text-[#d4af37]">
               Let&apos;s build something special together
             </p>

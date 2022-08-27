@@ -33,27 +33,27 @@ const defi = () => {
             the top six cryptos on the market right now.
           </p>
           <a href="https://legxcy.uk" target="_blank" rel="noreferrer">
-            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+            <button className="px-8 py-2 mt-4 mr-8 hover:text-[#546E74] hover:font-bold">Demo</button>
           </a>
           <a href="https://github.com/oyousaf/defi" target="_blank" rel="noreferrer">
-            <button className="px-8 py-2 mt-4">Code</button>
+            <button className="px-8 py-2 mt-4 hover:text-[#546E74] hover:font-bold">Code</button>
           </a>
         </div>
-        <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
+        <div className="col-span-4 md:col-span-1 shadow-xl rounded-xl p-4">
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
-              <p className="text-gray-100 py-2 flex items-center">
+              <p className="text-[#efcf98] py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> React
               </p>
-              <p className="text-gray-100 py-2 flex items-center">
+              <p className="text-[#efcf98] py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Tailwind
               </p>
             </div>
           </div>
         </div>
         <Link href="/#projects">
-          <RiArrowLeftCircleFill className="cursor-pointer" size={50} />
+          <RiArrowLeftCircleFill className="cursor-pointer text-[#d4af37] hover:text-[#efcf98]" size={50} />
         </Link>
       </div>
     </div>
