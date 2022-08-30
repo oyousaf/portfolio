@@ -49,7 +49,7 @@ const Main = () => {
               </div>
             </a>
             <a
-              href="../assets/OY new.pdf"
+              href="../assets/Omar-Yousaf-CV.pdf"
               target="_blank"
               rel="noreferrer"
               download
